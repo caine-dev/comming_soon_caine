@@ -22,7 +22,6 @@
        }
   @media (max-width: 660px){
       video{
-            .h-screen {
                 object-fit: cover !important;
                 object-position: bottom !important;
                 /* transform: scale(0.8); */
