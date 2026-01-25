@@ -53,19 +53,8 @@
   }
 }
 
-h1:before,
-h1:after {
-  left: 0;
-  content: 'Comming soon.';
-  position: absolute;
-  mix-blend-mode: inherit;
-}
-h1:before {
-  color: #f00;
-}
-h1:after {
-  color: #00f;
-}
+
+
 
 
 
@@ -80,8 +69,12 @@ h1:after {
   animation: glitch-loop 5s infinite;
 }
 
+h1:before {
+  color: #f00;
+}
 h1:after {
-  animation-delay: 0.15s; /* lekkie przesunięcie RGB */
+  animation-delay: 0.15s;
+       color: #00f;/* lekkie przesunięcie RGB */
 }
 @keyframes glitch-loop {
   0%,
