@@ -4,7 +4,7 @@ export default function Home() {
     <main className="">
       <div className="relative">
         <div className="bg-hero-section bg-no-repeat h-screen bg-center bg-cover">
-          <video autoPlay loop muted className="absolute inset-0 object-cover h-screen xl:h-auto">
+          <video autoPlay muted className="absolute inset-0 object-cover h-screen xl:h-auto">
             <source
               src="homepage/comming_soon_background.mp4"
               type="video/mp4"
