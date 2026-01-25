@@ -38,9 +38,10 @@
     mix-blend-mode: screen;
     cursor: default;
     bottom: 10%;
+             opacity: 0;
     right: 1%;
-  animation: showH1 0.5s ease forwards;
-  animation-delay: 1s; /* ← tu jest 1 sekunda opóźnienia */
+  animation: showH1 1.5s ease forwards;
+  animation-delay: 3s; /* ← tu jest 1 sekunda opóźnienia */
 }
 
 @keyframes showH1 {
