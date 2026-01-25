@@ -19,6 +19,14 @@
     }
       video{
          height: -webkit-fill-available;
+            @media (max-width: 660px) {
+                        object-fit: cover !important;
+                      object-position: bottom !important;
+                      height: 100vh !important;
+                      object-position: -670px !important;
+                      object-view-box: revert-layer !important;
+                      width: 100% !important;
+                    }
        }
 
 
@@ -36,6 +44,9 @@
     right: 1%;
   animation: showH1 1.5s ease forwards;
   animation-delay: 2s; /* ← tu jest 1 sekunda opóźnienia */
+          @media (max-width: 660px) {
+              bottom: 3% !important;
+          }
 }
 
 @keyframes showH1 {
@@ -166,18 +177,3 @@ h1:after {
   }
 }
 
-
-  @media (max-width: 660px)
-      {
-            video{
-                      object-fit: cover !important;
-                      object-position: bottom !important;
-                      height: 100vh !important;
-                      object-position: -670px !important;
-                      object-view-box: revert-layer !important;
-                      width: 100% !important;
-              }
-              h1{
-                        bottom: 3% !important;
-              }
-      }
