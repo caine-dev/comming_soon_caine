@@ -41,7 +41,7 @@
              opacity: 0;
     right: 1%;
   animation: showH1 1.5s ease forwards;
-  animation-delay: 3s; /* ← tu jest 1 sekunda opóźnienia */
+  animation-delay: 2s; /* ← tu jest 1 sekunda opóźnienia */
 }
 
 @keyframes showH1 {
@@ -76,7 +76,7 @@ h1:after {
   animation-delay: 0.15s;
        color: #00f;/* lekkie przesunięcie RGB */
 }
-@keyframes glitch-loop {
+@-moz-keyframes glitch-loop {
   0%,
   85%,
   100% {
