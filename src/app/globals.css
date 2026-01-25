@@ -20,7 +20,7 @@
       video{
          height: -webkit-fill-available;
        }
-  @media only screen and (max-width: 660px)
+  @media screen (max-width: 660px)
       video{
             .h-screen {
                 object-fit: cover !important;
