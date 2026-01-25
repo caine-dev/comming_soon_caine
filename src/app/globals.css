@@ -54,7 +54,13 @@
 }
 
 
-
+h1:hover:before,
+h1:hover:after {
+  animation: move infinite alternate linear 0.2s;
+}
+h1:hover:after {
+  animation-delay: 0.2s;
+}
 
 
 
@@ -66,7 +72,7 @@ h1:after {
   mix-blend-mode: inherit;
 
   /* 🔥 automatyczny glitch */
-  animation: glitch-loop 5s infinite;
+  animation: move 5s infinite;
 }
 
 h1:before {
