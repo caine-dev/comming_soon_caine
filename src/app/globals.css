@@ -68,7 +68,7 @@ h1:after {
   mix-blend-mode: inherit;
 
   /* 🔥 automatyczny glitch */
-  animation: move 5s infinite alternate linear 0.5s;
+  animation: move 3s infinite alternate linear 0.5s;
 }
 
 h1:before {
