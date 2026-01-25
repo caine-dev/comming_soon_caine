@@ -46,6 +46,7 @@
   animation-delay: 2s; /* ← tu jest 1 sekunda opóźnienia */
           @media (max-width: 660px) {
               bottom: 3% !important;
+                right: 3% !important;
           }
 }
 
