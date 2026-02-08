@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Fullscreen Background video',
-  description: 'By Tejas Chaudhari',
+  title: 'Caine racing comming soon.',
+  description: 'By Leo Caine',
 }
 
 export default function RootLayout({ children }) {
